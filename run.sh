@@ -34,5 +34,4 @@ docker run -d \
     --restart unless-stopped \
     airsonic/airsonic
 sleep 5
-docker logs airsonic-advanced
-fi
+docker logs airsonic-advanced > last_run.log
